@@ -33,7 +33,7 @@ def cadastrarContato():
     nome = input("Digite o Nome do Conatato: ")
     telefone = input("Digite o Telefone do Contato: ")
     email = input("Digite um Email Valido: ")
-
+    agenda = open('agenda.txt','a')
 
 
     # abrindo ou criando se não existir o arquivo
